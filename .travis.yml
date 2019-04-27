@@ -1,0 +1,16 @@
+after_script:
+  - docker images
+
+before_script:
+  - cd "$VERSION"
+  - IMAGE="gobyte-sentinel:${VERSION/\//-}"
+
+env:
+  - VERSION=1.1.0
+
+language: bash
+
+script:
+  - docker build -t "$IMAGE" .
+
+services: docker
