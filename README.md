@@ -52,5 +52,5 @@ This image is officially supported on Docker version 18.06, with support for old
 [docker-hub-url]: https://hub.docker.com/r/marknl/gobyte-sentinel
 [docker-pulls-image]: https://img.shields.io/docker/pulls/marknl/gobyte-sentinel.svg?style=flat-square
 [docker-stars-image]: https://img.shields.io/docker/stars/marknl/gobyte-sentinel.svg?style=flat-square
-[travis-build-url]: https://travis-ci.org/marknl/docker-gobyte-sentinele
+[travis-build-url]: https://travis-ci.org/marknl/docker-gobyte-sentinel
 [travis-build-image]: https://img.shields.io/travis/marknl/docker-gobyte-sentinel.svg
